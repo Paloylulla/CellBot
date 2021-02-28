@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "build": "webpack"
-},
-"heroku-run-build-script": true,
+  },
+  "heroku-run-build-script": true,
   "author": "",
   "license": "ISC",
   "dependencies": {
