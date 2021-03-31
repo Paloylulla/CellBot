@@ -1,5 +1,5 @@
-//EP 2
-//ตอบกลับ message ธรรมดา
+//EP 3
+//ตอบกลับ message ที่ส่งมาเป็น json
 
 const express = require('express');
 const line = require('@line/bot-sdk');
@@ -28,14 +28,19 @@ function handleEvent(event) {
     if (event.type === 'message' && event.message.type === 'text') {
         handleMessageEvent(event);
     } else {
-        return Promise.resolve(null);
+        var msg = {
+            type: 'text',
+            text: 'ไม่เข้าใจครับ'
+        };
+    
+        return client.replyMessage(event.replyToken, msg);
     }
 }
 
 function handleMessageEvent(event) {
     var msg = {
         type: 'text',
-        text: 'สวัสดีครัช'
+        text: event.message.text
     };
 
     return client.replyMessage(event.replyToken, msg);
