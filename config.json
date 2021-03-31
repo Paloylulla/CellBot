@@ -1,7 +1,7 @@
 {
     "port" : "4200",
     "line" : {
-      "channelAccessToken" : "ah2KbN3FzSjf0gD07OT5vqvozV2OLXbuL8QLJ/iyZGZb+RH/p1TCdDjjF9NexVaFCxf5OLbOTSNHRvs2ZFpepElyDIvU+HSuazqhqFnJ0Y9DddhDrYPH2JPhLBgYN+Nw9MLBuWjq46AIcKen3bAigwdB04t89/1O/w1cDnyilFU=",
-      "channelSecret" : "b7ea428f4e9b86feaba67e602da72732"
+      "channelAccessToken" : "your channelAccessToken",
+      "channelSecret" : "your channelSecret"
     }
   }

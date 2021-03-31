@@ -1,5 +1,5 @@
-//EP 1
-//ตอบกลับ message ธรรมดา
+//EP 5
+//ตอบกลับ message menu
 
 const express = require('express');
 const line = require('@line/bot-sdk');

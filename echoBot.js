@@ -1,5 +1,5 @@
-//EP 3
-//ตอบกลับ message ที่ส่งมาเป็น json
+//EP 1
+//ตอบกลับ message ที่ส่งมากลับคืน
 
 const express = require('express');
 const line = require('@line/bot-sdk');
